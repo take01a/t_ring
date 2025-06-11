@@ -1,1 +1,34 @@
 # t_ring
+
+このスクリプトは、プレイヤーがオリジナルの名前を付けた指輪を作成できるスクリプトです。
+
+# 依存関係
+    - `"qb-core"`
+    - `"ox_inventory"`
+
+All of my scripts will use this script and be added as a dependancy
+
+This was originally designed to be used for my scripts but has grown into a whole framework of unified functions that anyone can use for their own, I encourage it
+
+------
+
+## インストール
+
+- フォルダ名から `-main` を削除します。
+- `server.cfg` に `ensure t_ring` を追加します
+- ox_inventory/data/items.luaにアイテムを作成します
+
+```
+--ox_inventory/data/items.lua
+
+['custom_ring'] = {
+		label = 'custom ring',
+		description = 'ring',
+		weight = 1,
+		stack = false,
+}
+```
+- t_ring/cnofig.luaのConfig.RingItemを作成したアイテムの名前に設定します
+```
+Config.RingItem = 'custom_ring'
+```
