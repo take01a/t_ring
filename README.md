@@ -27,6 +27,8 @@
 }
 ```
 - t_ring/cnofig.luaのConfig.RingItemを作成したアイテムの名前に設定します
+
+-- t_ring/cnofig.lua
 ```
 Config.RingItem = 'custom_ring'
 ```
