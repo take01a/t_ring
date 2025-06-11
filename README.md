@@ -5,8 +5,8 @@
 ------
 
 # 依存関係
-- "qb-core"
-- "ox_inventory"
+- `"qb-core"`
+- `"ox_inventory"`
 - 依存関係の後に起動してください
 
 ------
