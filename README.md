@@ -17,9 +17,8 @@
 - `server.cfg` に `ensure t_ring` を追加します
 - ox_inventory/data/items.luaにアイテムを作成します
 
-```
 --ox_inventory/data/items.lua
-
+```
 ['custom_ring'] = {
     label = 'custom ring',
     description = 'ring',
