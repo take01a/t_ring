@@ -5,11 +5,7 @@
 # 依存関係
     - `"qb-core"`
     - `"ox_inventory"`
-
-All of my scripts will use this script and be added as a dependancy
-
-This was originally designed to be used for my scripts but has grown into a whole framework of unified functions that anyone can use for their own, I encourage it
-
+依存関係のあとに起動してください
 ------
 
 ## インストール
