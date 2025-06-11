@@ -37,9 +37,6 @@ RegisterNetEvent('t_ring:client:checkrecipi', function()
             title = item.label,
             description = recipi.amout .. '個必要です',
             icon = 'flask',
-            metadata = {
-                { label = 'ID', value = 'Some value' },
-            },
         })
     end
     table.insert(options, {
@@ -48,9 +45,6 @@ RegisterNetEvent('t_ring:client:checkrecipi', function()
         icon = 'play',
         serverEvent = 't_ring:client:checkitem',
         arrow = true,
-        args = {
-            someValue = 500
-        }
     })
     lib.registerContext({
         id = 'ring_craft',
