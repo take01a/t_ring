@@ -38,10 +38,10 @@ function CheckVersion()
             end
             local compareResult = compareVersions(currentVersion, newestVersionRaw)
             if compareResult == 0 then
-                print("^7'^3t_version^7' - ^2最新のバージョンを使用しています^7. ^7(^3"..currentVersion.."^7)")
+                print("^7'^3t_ring^7' - ^2最新のバージョンを使用しています^7. ^7(^3"..currentVersion.."^7)")
             elseif compareResult < 0 then
                 print("^1----------------------------------------------------------------------^7")
-                print("^7'^3t_version^7' - ^1あなたは古いバージョンを使用しています。^7! ^7(^3"..currentVersion.."^7 → ^3"..newestVersionRaw.."^7)")
+                print("^7'^3t_ring^7' - ^1あなたは古いバージョンを使用しています。^7! ^7(^3"..currentVersion.."^7 → ^3"..newestVersionRaw.."^7)")
             for _, line in ipairs(changelog) do
                 print((line:find("http") and "^7" or "^5")..line)
             end
@@ -50,7 +50,7 @@ function CheckVersion()
                 CheckVersion()
             end)
             else
-                print("^7'^3t_version^7' - ^5あなたはより新しいバージョンを使用しています。 ^7(^3"..currentVersion.."^7 ← ^3"..newestVersionRaw.."^7)")
+                print("^7'^3t_ring^7' - ^5あなたはより新しいバージョンを使用しています。 ^7(^3"..currentVersion.."^7 ← ^3"..newestVersionRaw.."^7)")
             end
         end)
     end)

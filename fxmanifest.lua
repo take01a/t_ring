@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'take'
 description 'ox_inventory用オリジナルアイテム指輪スクリプト'
-version '1.0.0'
+version '1.0.1'
 
 shared_script {
     '@ox_lib/init.lua',

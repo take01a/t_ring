@@ -6,6 +6,9 @@ RegisterNetEvent('t_ring:client:createring', function()
         { type = 'input', label = '名前', placeholder = 'xxxxxxxxxx', required = true },
         { type = 'input', label = '説明', placeholder = 'xxxxxxxxxx', required = false },
     })
+    if not input then
+        return
+    end
     local name, description = table.unpack(input)
     TriggerEvent('t_ring:client:progress', name, description)
 end)
