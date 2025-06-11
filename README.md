@@ -21,10 +21,10 @@
 --ox_inventory/data/items.lua
 
 ['custom_ring'] = {
-		label = 'custom ring',
-		description = 'ring',
-		weight = 1,
-		stack = false,
+    label = 'custom ring',
+    description = 'ring',
+    weight = 1,
+    stack = false,
 }
 ```
 - t_ring/cnofig.luaのConfig.RingItemを作成したアイテムの名前に設定します
