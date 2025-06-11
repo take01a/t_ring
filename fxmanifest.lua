@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'take'
-description 'ox_inventory用オリジナルアイテム作成スクリプト'
+description 'ox_inventory用オリジナルアイテム指輪スクリプト'
 version '1.0.0'
 
 shared_script {
